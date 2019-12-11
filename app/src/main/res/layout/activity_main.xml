@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/fundo"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoL Search"
+        android:textSize="25sp"
+        android:textColor="@color/amarelo"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu nick"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"
+        android:background="@color/fundo"
+        android:textColor="@color/amarelo"
+        android:textColorHint="@color/amarelo"
+
+        />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarelo"
+        android:text="Save"
+        />
+
+    <ListView
+         android:id="@+id/lv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@color/amarelo"
+
+
+
+         />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
